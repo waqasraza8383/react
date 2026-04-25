@@ -5,17 +5,15 @@ import heroImg from './assets/hero.png'
 import Hello from './Hello'
 import Navbar from './Navbar' 
  import Fruits from './Fruits'
-
+ import User from './User'
+import SignupForm from './SiginupForm'
+import './style.css'
+import LoginForm from './LoginForm'
 
 function App() {
   return (
     <>    
-    <Fruits/>
-    {/* <Array_Object/> */}
-    {/* <Hello/>  */}
-    {/* <img src={heroImg} alt="" srcset="" width="200px"/> */}
-    {/* <Navbar/> */}
-
+     <LoginForm />
     </>
   )
 }
